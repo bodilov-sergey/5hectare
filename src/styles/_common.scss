@@ -1,0 +1,62 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+header {
+    margin-top: 121px;
+    @media (min-width: 576px) {
+        margin-top: 169px;
+    }
+}
+.anchor {
+    position: relative;
+    top: -111px;
+}
+// fix
+p {
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    outline: none;
+    &:hover {
+        color: inherit;
+    }
+}
+span {
+    font-size: 1em;
+    font-weight: inherit;
+}
+button {
+    border: none;
+}
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-weight: 600;
+}
+ul {
+    margin-bottom: 0;
+}
+li {
+    font-weight: inherit;
+    font-size: inherit;
+}
+b {
+    font-size: inherit;
+    font-weight: 600;
+}
+input {
+    outline: none;
+    border: none;
+}
+.modal-tel {
+    max-width: 30px;
+    margin-right: 10px;
+}

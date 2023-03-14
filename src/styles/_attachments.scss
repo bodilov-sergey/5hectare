@@ -1,0 +1,25 @@
+.attachments {
+    margin-bottom: 45px;
+    position: relative;
+    background: linear-gradient(97.73deg, #1b1a1a -1.13%, #362424 100.32%);
+    &__content {
+        padding: 29px 0 49px;
+        color: #fff;
+
+        & h2 {
+            font-size: 28px;
+            line-height: 34px;
+            margin-bottom: 30px;
+        }
+
+        & p {
+            font-size: 18px;
+            line-height: 22px;
+            color: #ebe9e9;
+            margin-bottom: 26px;
+        }
+        & button {
+            margin-top: 16px;
+        }
+    }
+}

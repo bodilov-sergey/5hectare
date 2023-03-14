@@ -1,0 +1,42 @@
+.about {
+    padding-bottom: 67px;
+    &__advantages {
+        margin-bottom: 21px;
+        font-size: 16px;
+        & h2 {
+            font-size: 28px;
+            margin-bottom: 18px;
+        }
+        & ul {
+            padding-left: 19.5px;
+            margin-bottom: 24px;
+        }
+        & li {
+            font-size: 16px;
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-wrap: wrap;
+        & p {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+        & h3 {
+            font-size: 18px;
+            margin-bottom: 2px;
+        }
+    }
+
+    &__carousel-indicators {
+        position: relative;
+        margin-top: 23px;
+        & button div {
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background: #242424;
+            margin: 0 10px 10px;
+        }
+    }
+}
